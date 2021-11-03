@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+<html>
+	<head>
+		<link rel="stylesheet" href="main button.css">
+	</head>
+	<table>
+	<tr>
+		<td> <h1> Destiny 2 vendor notification app <img src="pngs/destiny logo.png" alt="destiny 2 logo" height="30"> </h1> </td>
+	</tr>
+	</table>
 
-You can use the [editor on GitHub](https://github.com/destiny2notifs/destiny2notifs/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+	<a href="https://www.bungie.net/Platform" class="authorize" style="font-size:50px">Authorise with Bungie.net</a>
+	<br> <br>
+	<table width="1000">
+	<tr>
+		<td> This website was created by Victoria College student Teague Mangan for his computer science a-level coursework. It is only a concept so do not be shocked if something doesn't work or it doesn't look as professional as apps such as D2 gunsmith or Destiny inventory manager. </td>
+	</tr>
+	</table>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/destiny2notifs/destiny2notifs/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>

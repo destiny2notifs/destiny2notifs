@@ -1,0 +1,30 @@
+body {
+	background-color: #FFFFFF;
+}
+
+.authorize {
+	font-size: 50px
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #444444;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #444444;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #8C8C8C;
+  background-color: transparent;
+  text-decoration: underline;

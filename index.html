@@ -2,6 +2,16 @@
 	<head>
 		<link rel="stylesheet" href="index.css">
 		<link rel="stylesheet" href="index.js">
+		
+		<script>
+			function authorise() {
+			const Url='https://www.bungie.net/platform/Destiny2/Stats/Definition/';
+			$('.btn').click(function(){
+			    $.get(Url, function(data, status){
+    	  		console.log('${data}')
+ 			   });
+			})
+		</script>
 	</head>
 	<table>
 	<tr>
@@ -10,16 +20,7 @@
 	</table>
 	
 	<button onclick="authorise()">Authorise with Bungie.net</button>
-	
-	<script>
-	function authorise() {
-		const Url='https://www.bungie.net/platform/Destiny2/Stats/Definition/';
-	$('.btn').click(function(){
-	    $.get(Url, function(data, status){
-      	console.log('${data}')
-    });
-	})
-	</script>
+
 	
 	<br> <br>
 	<table width="1000">

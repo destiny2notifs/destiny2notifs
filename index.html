@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<link rel="stylesheet" href="index.css">
@@ -6,9 +7,9 @@
 		<script>
 			function authorise() {
 			const Url='https://www.bungie.net/platform/Destiny2/Stats/Definition/';
-			    $.get(Url, function(data, status){
-    	  		console.log('${data}')
- 			   });
+			fetch(Url).then(function(result){
+				console.log(result);
+			});
 			}
 		</script>
 	</head>
